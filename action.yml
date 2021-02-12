@@ -1,9 +1,9 @@
-name: GCC Problem Matcher
-description: Attaches a problem matcher that looks for errors during gcc builds
-author: Ammar Askar
+name: GCC Problem Matcher with Build Dir Support
+description: Attaches a problem matcher that looks for errors during gcc builds. Ignores ../ at the start of the file input.
+author: Joshua Ashton (fork) and Ammar Askar
 branding:
   icon: check-square
-  color: yellow
+  color: purple
 runs:
   using: 'node12'
   main: 'index.js'
