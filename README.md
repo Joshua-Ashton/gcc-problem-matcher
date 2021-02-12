@@ -1,4 +1,6 @@
-# gcc-problem-matcher
+# gcc-problem-matcher with build dir support
+
+## This is just gcc-problem-matcher but it ignores ../ at the start of the build dir
 
 Github Action to [problem match](https://github.com/actions/toolkit/blob/master/docs/problem-matchers.md)
 output from `gcc`. This allows warnings and errors from the compiler to be
