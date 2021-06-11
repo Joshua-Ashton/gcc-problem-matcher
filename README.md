@@ -12,7 +12,7 @@ This is a direct port of the `$gcc` rule from [vscode-cpptools](https://github.c
 Typical usage will be:
 
 ```yaml
-    - uses: ammaraskar/gcc-problem-matcher@master
+    - uses: Joshua-Ashton/gcc-problem-matcher@master
     - name: Build Project
       run: make
 ```
