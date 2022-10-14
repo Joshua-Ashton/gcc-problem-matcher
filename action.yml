@@ -5,5 +5,5 @@ branding:
   icon: check-square
   color: purple
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'index.js'
